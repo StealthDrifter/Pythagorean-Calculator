@@ -128,6 +128,8 @@
             Controls.Add(groupBox1);
             ForeColor = SystemColors.Control;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximumSize = new Size(252, 206);
+            MinimumSize = new Size(252, 206);
             Name = "TriangleUI";
             Text = "Triangle Calc";
             groupBox1.ResumeLayout(false);
